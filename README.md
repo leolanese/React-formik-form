@@ -40,7 +40,7 @@ Finally we will set a blueprint of the JS object in a object. So we can later on
 
 
 #### Further information
-https://react-hook-form.com/
+Thanks to Jared Palmer for this great tool, find more info here: https://react-hook-form.com/
 
 ---
 <h4> Thanks </h4>
