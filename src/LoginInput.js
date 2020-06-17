@@ -1,13 +1,13 @@
-import React, {Children} from 'react';
-import { Formik, useField } from 'formik';
+import React from 'react';
+import { useField } from 'formik';
 
-//
 export const TextInputLogin = ({label, ...props}) => {
   const [field, meta] = useField(props);
 
   return (
+    // return just a react fragment
     <>
-      <label htmlFor={props.id || props.loginName}>{label}</label>
+      <label htmlFor={props.loginName}>{label}</label>
 
       <input className="formik-input" {...field} {...props} />
 

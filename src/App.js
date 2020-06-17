@@ -1,5 +1,5 @@
 import React from 'react';
-import { Formik, useField, Form } from 'formik';
+import { Formik, Form } from 'formik';
 
 import * as Yup from 'yup';
 
@@ -14,29 +14,25 @@ function App() {
     <StylesFormik>
       <Formik
       intitalValues={{
-        loginName: '',
-        loginPassword: ''
+        loginName: 'admin',
+        loginPassword: 'admin'
       }}
       validationSchema={
         Yup.object({
           loginName: Yup.string()
             .min(5, 'Need 5 characters')
             .max(25, 'Max 25 chartacters')
-            .default('loginName')
             .required('Required'),
           loginPassword: Yup.string()
-            .email('Invalid e-mail')
-            .default('loginPassword')
             .required('Required'),
         })
       }
       onSubmit={(data, { setSubmitting, resetForm }) => {
-         setTimeout(() => {
-           console.table(data);
-           resetForm();
-           setSubmitting(false);
-         }, 1000)
-      }}
+         console.table(data);
+         alert("Form valid. Submitting the form now");
+         resetForm();
+         setSubmitting(false);
+        }}
       >
 
         { props => (
@@ -46,6 +42,7 @@ function App() {
               <div className="form-group">
                   <TextInputLogin
                     className="form-control"
+                    type="text"
                     label="Enter Label"
                     name="Enter username"
                   ></TextInputLogin>
@@ -54,9 +51,9 @@ function App() {
                   <TextInputLogin
                     className="form-control"
                     label="Enter Label"
+                    type="password"
                     name="Enter password"
                     type="password"
-
                   ></TextInputLogin>
               </div>
               <div className="form-group">
