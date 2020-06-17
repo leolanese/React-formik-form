@@ -31,6 +31,14 @@ Yup is an object schema validator. Simple put it is a library that allows you to
 #### Custom and predefined fields
 Formik provided pre-defined Fields out of the box, we will implement it and also create a new Custom field to compare both options
 
+#### Schemas
+Finally we will set a blueprint of the JS object in a object. So we can later on re-use it.
+
+#### Screenshot
+
+![alt text](./react-formik.PNG)
+
+
 ---
 <h4> Thanks </h4>
 <h5> { 'Leo Lanese',<br>
