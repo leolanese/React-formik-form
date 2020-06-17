@@ -25,6 +25,21 @@ open http://localhost:3000/
 - Validation and error messages
 - Handling form submission on Form
 
+#### What Formik provides out of the box:
+Formik provides: Formik, Form, Field, and ErrorMessage.
+
+#### How can I use Formik:
+
+Just wrap the Form component inside Formik component:
+```javascript
+<Formik>
+  <Form>
+    {/* here will be dragons */}
+  </Form>
+</Formik>
+```
+
+
 #### What Yup does:
 Yup is an object schema validator. Simple put it is a library that allows you to <b>define the blueprint of a JS object</b> and ensure that the object values match that blueprint through the validation process.
 
