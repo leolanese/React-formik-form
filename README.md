@@ -28,6 +28,9 @@ open http://localhost:3000/
 #### What Yup does:
 Yup is an object schema validator. Simple put it is a library that allows you to <b>define the blueprint of a JS object</b> and ensure that the object values match that blueprint through the validation process.
 
+#### Custom and predefined fields
+Formik provided pre-defined Fields out of the box, we will implement it and also create a new Custom field to compare both options
+
 ---
 <h4> Thanks </h4>
 <h5> { 'Leo Lanese',<br>
