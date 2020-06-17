@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik, Form } from 'formik';
 
-import * as Yup from 'yup';
+import { LoginSchema } from './Schemas';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import { StylesFormik } from './react-formik-style';
@@ -13,27 +13,20 @@ function App() {
     // yup validation schema
     <StylesFormik>
       <Formik
-      intitalValues={{
-        loginName: 'admin',
-        loginPassword: 'admin'
-      }}
-      validationSchema={
-        Yup.object({
-          loginName: Yup.string()
-            .min(5, 'Need 5 characters')
-            .max(25, 'Max 25 chartacters')
-            .required('Required'),
-          loginPassword: Yup.string()
-            .required('Required'),
-        })
-      }
-      onSubmit={(data, { setSubmitting, resetForm }) => {
-         console.table(data);
-         alert("Form valid. Submitting the form now");
-         resetForm();
-         setSubmitting(false);
+        intitalValues={{
+          loginName: 'admin',
+          loginPassword: 'admin'
         }}
-      >
+
+        validationSchema={LoginSchema}
+
+        onSubmit={(data, { setSubmitting, resetForm }) => {
+          console.table(data);
+          alert("Form valid. Submitting the form now");
+          resetForm();
+          setSubmitting(false);
+          }}
+        >
 
         { props => (
           <Form>
