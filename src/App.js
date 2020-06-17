@@ -38,9 +38,9 @@ function App() {
                   <TextInputLogin
                     className="form-control"
                     label="Enter Label"
-                    type="password"
+                    type="text"
                     name="Enter password"
-                    type="password"
+                    placeholder="Admin"
                   ></TextInputLogin>
               </div>
 
