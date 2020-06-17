@@ -1,5 +1,5 @@
 import React from 'react';
-import { Formik, Form } from 'formik';
+import { Formik, Form, Field } from 'formik';
 
 import { LoginSchema } from './Schemas';
 
@@ -29,20 +29,18 @@ function App() {
           }, 1000)
           }}
         >
-
         { props => (
           <Form>
             <div className="login-form">
               <h2 className="text-center">Log in</h2>
 
               <div className="form-group">
-                  <TextInputLogin
-                    className="form-control"
-                    label="User"
-                    name="Enter password"
-                    type="text"
-                    placeholder="Admin"
-                  ></TextInputLogin>
+                <Field
+                  type="email"
+                  name="email"
+                  placeholder="Enter email"
+                  className="form-control"
+                />
               </div>
 
               <div className="form-group">

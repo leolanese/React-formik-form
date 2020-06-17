@@ -2,6 +2,7 @@ import React from 'react';
 import { useField } from 'formik';
 
 export const TextInputLogin = ({label, ...props}) => {
+  console.log(props);
   const [field, meta] = useField(props);
 
   return (
