@@ -1,4 +1,4 @@
-# Creating ReactJS forms with Formik
+# Creating ReactJS forms with Formik & Yup
 
 ### Makes the React Application run
 ```javascript
@@ -19,6 +19,14 @@ yarn start
 open http://localhost:3000/
 ```
 
+### Formik
+#### What Formik does:
+- Getting state values
+- Validation and error messages
+- Handling form submission on Form
+
+#### What Yup does:
+Yup is an object schema validator. Simple put it is a library that allows you to <b>define the blueprint of a JS object</b> and ensure that the object values match that blueprint through the validation process.
 
 ---
 <h4> Thanks </h4>
