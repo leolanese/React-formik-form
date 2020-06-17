@@ -29,17 +29,11 @@ function App() {
         >
 
         { props => (
+
           <Form>
             <div className="login-form">
               <h2 className="text-center">Log in</h2>
-              <div className="form-group">
-                  <TextInputLogin
-                    className="form-control"
-                    type="text"
-                    label="Enter Label"
-                    name="Enter username"
-                  ></TextInputLogin>
-              </div>
+
               <div className="form-group">
                   <TextInputLogin
                     className="form-control"
@@ -49,6 +43,7 @@ function App() {
                     type="password"
                   ></TextInputLogin>
               </div>
+
               <div className="form-group">
                   <button type="submit" className="btn btn-primary btn-block">{props.isSubmitting ? 'Loading': 'Loggin'}</button>
               </div>
