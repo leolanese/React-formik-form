@@ -39,6 +39,9 @@ Finally we will set a blueprint of the JS object in a object. So we can later on
 ![alt text](./react-formik.PNG)
 
 
+#### Further information
+https://react-hook-form.com/
+
 ---
 <h4> Thanks </h4>
 <h5> { 'Leo Lanese',<br>
