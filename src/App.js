@@ -21,15 +21,16 @@ function App() {
         validationSchema={LoginSchema}
 
         onSubmit={(data, { setSubmitting, resetForm }) => {
-          console.table(data);
-          alert("Form valid. Submitting the form now");
-          resetForm();
-          setSubmitting(false);
+          setTimeout(() => {
+            console.table(data);
+            alert("Form valid. Submitting the form now");
+            resetForm();
+            setSubmitting(false);
+          }, 1000)
           }}
         >
 
         { props => (
-
           <Form>
             <div className="login-form">
               <h2 className="text-center">Log in</h2>
@@ -37,10 +38,20 @@ function App() {
               <div className="form-group">
                   <TextInputLogin
                     className="form-control"
-                    label="Enter Label"
-                    type="text"
+                    label="User"
                     name="Enter password"
+                    type="text"
                     placeholder="Admin"
+                  ></TextInputLogin>
+              </div>
+
+              <div className="form-group">
+                  <TextInputLogin
+                    className="form-control"
+                    label="Password"
+                    name="Enter password"
+                    type="password"
+                    placeholder="nothing"
                   ></TextInputLogin>
               </div>
 
