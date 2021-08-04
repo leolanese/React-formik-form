@@ -1,20 +1,24 @@
 # Creating ReactJS forms with Formik & Yup
 
 ### Makes the React Application run
-```javascript
-// using app based on [Create React App](https://github.com/facebook/create-react-app)
-// adding react-formik package
+```js
+// adding react-formik package. Using app based on [Create React App](https://github.com/facebook/create-react-app)
 npx create-react-app react-formik
 cd react-formik
+
 // using yarn
 npm install -g yarn
+
 // we are going to need bootstrap
 yarn add bootstrap
+
 // adding basic styling
 // adding yup form validation
 yarn add formik styled-components yup
+
 // start yarn
 yarn start
+
 // open browser to
 open http://localhost:3000/
 ```
@@ -31,7 +35,7 @@ Formik provides: Formik, Form, Field, and ErrorMessage.
 #### How can I use Formik:
 
 Just wrap the Form component inside Formik component:
-```javascript
+```js
 <Formik>
   <Form>
     {/* here will be dragons */}
