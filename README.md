@@ -44,22 +44,22 @@ Just wrap the Form component inside Formik component:
 ```
 
 
-#### What Yup does:
+### What `Yup` does:
 Yup is an object schema validator. Simple put it is a library that allows you to <b>define the blueprint of a JS object</b> and ensure that the object values match that blueprint through the validation process.
 
-#### Custom and predefined fields
+### Custom and predefined fields
 Formik provided pre-defined Fields out of the box, we will implement it and also create a new Custom field to compare both options
 
-#### Schemas
+### Schemas
 Finally we will set a blueprint of the JS object in a object. So we can later on re-use it.
 
-#### Screenshot
+### Screenshot
 
 ![alt text](./react-formik.PNG)
 
 
-#### Further information
-Thanks to Jared Palmer for this great tool, find more info here: https://react-hook-form.com/
+### Further information
+Thanks to Jared Palmer for this great tool, please find more info here: https://react-hook-form.com/
 
 ---
 <h4> Thanks </h4>
