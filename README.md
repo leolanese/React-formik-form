@@ -55,7 +55,7 @@ Finally we will set a blueprint of the JS object in a object. So we can later on
 
 ### Screenshot
 
-![alt text](./react-formik.PNG)
+![React-formik forms with reactJS](./react-formik.PNG)
 
 
 ### Further information
