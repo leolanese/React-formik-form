@@ -53,13 +53,13 @@ Formik provided pre-defined Fields out of the box, we will implement it and also
 ### Schemas
 Finally we will set a blueprint of the JS object in a object. So we can later on re-use it.
 
-### Screenshot
+### DEMO Screenshot
 
 ![React-formik forms with reactJS](./react-formik.PNG)
 
 
 ### Further information
-Thanks to Jared Palmer for this great tool, please find more info here: https://react-hook-form.com/
+Thanks to Jared Palmer for this great tool, further information: [react-hook-form](https://react-hook-form.com/)
 
 ---
 <h4> Thanks </h4>
