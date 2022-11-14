@@ -62,23 +62,16 @@ Finally we will set a blueprint of the JS object in a object. So we can later on
 Thanks to Jared Palmer for this great tool, further information: [react-hook-form](https://react-hook-form.com/)
 
 ---
-<h4> Thanks </h4>
-<h5> { 'Leo Lanese',<br>
-       'Building Inspiring Responsive Reactive Solutions',<br>
-       'London, UK' }<br>
-</h5>
-<h5>Twitter:
-<a href="http://twitter.com/LeoLaneseltd" target="_blank">twitter.com/LeoLaneseltd</a>
-</h5>
-<h5>Portfolio
-<a href="http://www.leolanese.com" target="_blank">http://www.leolanese.com</a>
-</h5>
-<h5>DEV.to:
-<a href="http://www.dev.to/leolanese" target="_blank">dev.to/leolanese</a>
-</h5>
-<h5>Blog:
-<a href="http://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
-</h5>
-<h5>Questions / Suggestion / Recommendation ?
-<a href="mail:to">developer@leolanese.com</a>
-</h5>
+### :100: <i>Thanks!</i>
+#### Now, don't be an stranger. Let's stay in touch!
+
+<a href="https://www.linkedin.com/in/leolanese/"> 
+  <img src="https://github-business-card.vercel.app/api/github?username=leolanese" alt="leolanese's linkedin" width="75%" />
+</a>
+
+##### :radio_button: linkedin: <a href="https://www.linkedin.com/in/leolanese/" target="_blank">@LeoLanese</a>
+##### :radio_button: Twitter: <a href="https://twitter.com/LeoLanese" target="_blank">@LeoLanese</a>
+##### :radio_button: Portfolio: <a href="https://www.leolanese.com" target="_blank">www.leolanese.com</a>
+##### :radio_button: DEV.to: <a href="https://www.dev.to/leolanese" target="_blank">dev.to/leolanese</a>
+##### :radio_button: Blog: <a href="https://www.leolanese.com/blog" target="_blank">leolanese.com/blog</a>
+##### :radio_button: Questions / Suggestion / Recommendation: developer@leolanese.com
